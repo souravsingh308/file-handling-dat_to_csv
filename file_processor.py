@@ -122,6 +122,7 @@ class EmployeesDataETL:
         self.clean_data()
         self.process_data()
         self.write_to_csv()
+        print('\n Task completed')
 
 
 if __name__ == "__main__":
